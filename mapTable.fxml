@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.control.Label?>
+<BorderPane fx:id="tableBorderPaneI" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="850.0" stylesheets="@mapTableStyle.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TableView fx:id="table" pickOnBounds="false" prefHeight="459.0" prefWidth="685.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+          <placeholder>
+              <Label text="There are no properties availible for this price range."/>
+          </placeholder>
+        <columns>
+          <TableColumn fx:id="price" editable="false" maxWidth="165.0" prefWidth="165.0" resizable="false" text="Price" />
+          <TableColumn fx:id="reviews" editable="false" maxWidth="165.0" prefWidth="165.0" sortType="DESCENDING" text="Reviews" />
+            <TableColumn fx:id="minNights" editable="false" maxWidth="165.0" prefWidth="165.0" sortType="DESCENDING" text="Minimum nights" />
+            <TableColumn fx:id="hostName" editable="false" maxWidth="165.0" prefWidth="165.0" sortType="DESCENDING" text="Host Name" />
+            <TableColumn fx:id="streetView" prefWidth="189.0" text="Street View" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

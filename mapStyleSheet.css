@@ -1,0 +1,23 @@
+@font-face {
+    -fx-font-family: mapButtonFont;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+}
+
+.map-button{
+    -fx-shape: 'M 0,-1 L .866,-.5 L .866,.5 L 0,1 L -.866,.5 L -.866,-.5 Z';
+    -fx-font-size: 17;
+    -fx-font-family: mapButtonFont;
+}
+
+.map-button:pressed:hover{
+    -fx-translate-y: 2px;
+}
+
+.map-button:hover{
+    -fx-translate-y: -5px;
+}
+
+.map-label{
+    -fx-background-color: linear-gradient(to bottom,#49cb29, #cc322a);
+}
+

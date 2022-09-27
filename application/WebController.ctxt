@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=WebController
+comment1.params=location\ resources
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment1.text=\n\ initalising\ the\ webview\n\ @param\ location\ not\ to\ be\ confused\ with\ the\ string\ url\n\ @param\ resources\n
+comment2.params=event
+comment2.target=void\ handle(javafx.scene.input.MouseEvent)
+comment3.params=observable\ oldValue\ newValue
+comment3.target=void\ changed(javafx.beans.value.ObservableValue,\ java.lang.Number,\ java.lang.Number)
+comment4.params=url
+comment4.target=void\ loadPage(java.lang.String)
+comment5.params=
+comment5.target=void\ refreshPage()
+numComments=6

@@ -1,0 +1,28 @@
+@font-face {
+    -fx-font-family: mapTableFont;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+}
+
+.table-view{
+    -fx-background-color: "#fff5eb";
+    -fx-background-radius: 35;
+}
+
+.table-view .column-header-background{
+    -fx-background-color:"#ff7979";
+}
+
+.table-view .column-header, .table-view .filler{
+    -fx-size: 40;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color: transparent;
+    -fx-text-alignment: top;
+
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-font-family: mapTableFont;
+    -fx-font-size: 15;
+    -fx-text-alignment: center;
+}

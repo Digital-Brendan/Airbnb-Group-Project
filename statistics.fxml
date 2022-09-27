@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="pane" stylesheets="@fxml/statistics.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" >
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <BorderPane fx:id="topLeft" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="300.0" style="-fx-border-color: black;">
+         <left>
+            <Button id="tlLbutton" fx:id="tlLbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickTL" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button id="tlRbutton" fx:id="tlRbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClickTL" prefHeight="50.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <top>
+            <Label fx:id="topLabelTL" text="Statistics View" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <bottom>
+            <Label fx:id="bottomLabelTL" contentDisplay="CENTER" text="Click a button to view a statistic" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </bottom>
+      </BorderPane>
+      <BorderPane fx:id="topRight" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="300.0" style="-fx-border-color: black;" GridPane.columnIndex="1">
+         <left>
+            <Button id="trLbutton" fx:id="trLbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickTR" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button id="trRbutton" fx:id="trRbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClickTR" prefHeight="50.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <top>
+            <Label fx:id="topLabelTR" text="Statistics View" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <bottom>
+            <Label fx:id="bottomLabelTR" contentDisplay="CENTER" text="Click a button to view a statistic" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </bottom>
+      </BorderPane>
+      <BorderPane fx:id="bottomLeft" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="300.0" style="-fx-border-color: black;" GridPane.rowIndex="1">
+         <left>
+            <Button id="blLbutton" fx:id="blLbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickBL" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button id="blRbutton" fx:id="blRbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClickBL" prefHeight="50.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <top>
+            <Label fx:id="topLabelBL" text="Statistics View" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <bottom>
+            <Label fx:id="bottomLabelBL" contentDisplay="CENTER" text="Click a button to view a statistic" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </bottom>
+      </BorderPane>
+      <BorderPane fx:id="bottomRight" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="300.0" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <left>
+            <Button id="brLbutton" fx:id="brLbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickBR" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button id="brRbutton" fx:id="brRbutton" maxHeight="50.0" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#buttonClickBR" prefHeight="50.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <top>
+            <Label fx:id="topLabelBR" text="Statistics View" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <bottom>
+            <Label fx:id="bottomLabelBR" contentDisplay="CENTER" text="Click a button to view a statistic" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="50.0" />
+               </BorderPane.margin>
+            </Label>
+         </bottom>
+      </BorderPane>
+   </children>
+</GridPane>
